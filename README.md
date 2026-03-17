@@ -1,6 +1,5 @@
-# AI-ML-Projects
-🌍 Language Detection using Naive Bayes (Machine Learning)
-📌 Project Overview
+**🌍 Language Detection using Naive Bayes (Machine Learning)**
+**📌 Project Overview**
 
 This project implements a Language Detection System using Machine Learning in Python. The model automatically predicts the language of a given text using the Multinomial Naive Bayes algorithm and Bag-of-Words feature extraction.
 
@@ -18,11 +17,11 @@ Social media analysis
 
 This project demonstrates how text data can be converted into numerical features and classified into multiple languages using a supervised machine learning model.
 
-🧠 Machine Learning Concepts Used
+**🧠 Machine Learning Concepts Used**
 
 This project uses several fundamental machine learning and NLP techniques.
 
-1️⃣ Bag of Words (BoW)
+**1️⃣ Bag of Words (BoW)**
 
 The text data is converted into numerical form using CountVectorizer.
 
@@ -68,8 +67,8 @@ Fast
 Efficient for text data
 
 Works well with large vocabularies
-
-📂 Dataset Description
+**
+**📂 Dataset Description
 
 The dataset used in this project contains sentences from multiple languages.
 
@@ -142,7 +141,7 @@ Pushto
 
 The dataset is balanced, meaning each language has an equal number of samples.
 
-⚙️ Project Workflow
+**⚙️ Project Workflow**
 
 The complete pipeline of the project follows these steps:
 
@@ -176,10 +175,6 @@ Inspecting class distribution
 
 Extracting features and labels
 
-Example:
-
-x = np.array(df["Text"])
-y = np.array(df["language"])
 4️⃣ Text Vectorization
 
 Text is converted into numerical features using CountVectorizer.
@@ -254,7 +249,7 @@ Effective text representation
 
 Suitable classification algorithm
 
-💻 Technologies Used
+**💻 Technologies Used**
 
 Python
 
@@ -266,7 +261,7 @@ Scikit-learn
 
 Natural Language Processing (NLP)
 
-🚀 Applications
+**🚀 Applications**
 
 This project can be extended and used in real-world systems such as:
 
@@ -280,7 +275,7 @@ Multilingual document classification
 
 Automatic language detection for websites
 
-🔮 Future Improvements
+**🔮 Future Improvements**
 
 Possible improvements include:
 
@@ -294,7 +289,7 @@ Adding more languages
 
 Creating a web application using Flask or Streamlit
 
-📌 Conclusion
+**📌 Conclusion**
 
 This project demonstrates how machine learning and natural language processing techniques can be used to automatically detect the language of text. Using CountVectorizer and Multinomial Naive Bayes, we achieved high accuracy with a simple and efficient model.
 
